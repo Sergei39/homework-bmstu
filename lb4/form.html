@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <title>Лабораторная работа №4</title>
+    <meta charset="utf-8">
+    <style>
+      table#info {
+        border: 1px solid black;
+        float: left;
+        width: auto;
+        margin-left: 30px;
+      }
+      table#submit {
+        float: left;
+        width: 300px;
+      }
+      #sumCena, #resSum {
+        margin-top: 40px;
+      }
+    </style>
+</head>
+<body>
+  <table id="submit">
+      <tr>
+          <th>Наименование:</th>
+          <th><input type="text" name="name" id="name"/></th>
+      </tr>
+      <tr>
+          <th>Стоимость:</th>
+          <th><input type="text" name="cena" id="cena"/></th>
+      </tr>
+      <tr>
+          <th><input type="submit" value="Добавить" id="setTb"/></th>
+          <th></th>
+      </tr>
+      <tr>
+          <th><input type="submit" value="Расчитать стоимость" id="sumCena"/></th>
+          <th><input type="text" name="cena" id="resSum"/></th>
+      </tr>
+    </table>
+
+    <table id="info">
+      <tr>
+        <th>Наименование</th>
+        <th>Стоимость</th>
+      </tr>
+    </table>
+
+    <script>
+    document.getElementById("setTb").onclick = newRow;
+    document.getElementById("sumCena").onclick = sumCena;
+
+    function sumCena() {
+      let infoTb = document.getElementById("info");
+      let sum = 0;
+      for (let i = 1; i < infoTb.childNodes.length; i++) {
+        sum += Number(infoTb.childNodes[i].lastChild.textContent);
+      }
+
+      document.getElementById("resSum").value = sum.toString();
+    }
+
+    function mouseOut(el) {
+      el.style.backgroundColor = "white";
+    }
+
+    function mouseOver(el) {
+      el.style.backgroundColor = "green";
+    }
+
+    function newRow() {
+      let strName = document.getElementById("name").value;
+      let strCena = document.getElementById("cena").value;
+      document.getElementById("name").value = "";
+      document.getElementById("cena").value = "";
+      if (strName === "" || strCena === "") {
+        alert("Нет наименования или стоимости");
+        return 0;
+      }
+      if (isNaN(Number(strCena))) {
+        alert("Стоимость должна быть равна числу");
+        return 0;
+      }
+
+      let info = document.getElementById("info");
+      let row = document.createElement("TR")
+      row.innerHTML = "<td>" + strName +
+        "</td><td onMouseOut='mouseOut(this)' onMouseOver='mouseOver(this)'>" +
+          strCena + "</td>"
+      info.appendChild(row);
+    }
+  </script>
+</body>
+</html>

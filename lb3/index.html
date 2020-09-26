@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <title>Лабораторная работа №3</title>
+    <meta charset="utf-8">
+</head>
+<body>
+  <form>
+      <table>
+          <tr>
+              <th>Имя:</th>
+              <th><input type="text" name="fname"/></th>
+          </tr>
+          <tr>
+              <th>Фамилия:</th>
+              <th><input type="text" name="lname"/></th>
+          </tr>
+          <tr>
+              <th>Пол:</th>
+              <th><input type="radio" name="gender" value="м"/>м
+                  <input type="radio" name="gender" value="ж"/>ж</th>
+          </tr>
+          <tr>
+              <th>Пароль:</th>
+              <th><input type="password" name="pass"/></th>
+          </tr>
+          <tr>
+              <th></th>
+              <th><input type="submit" value="Отправить"/></th>
+          </tr>
+      </table>
+  </form>
+  <div id="print"></div>
+
+  <script type="text/javascript">
+    let body = document;
+    let prDiv = document.getElementById("print");
+    let str = "";
+    let strLog = "";
+    let tab = 0;
+    getEl(body);
+    prDiv.innerHTML = str;
+    console.log(strLog);
+
+    function getEl(e) {
+      if (e.children.length == 0)
+        return 0;
+
+      for (let i = 0; i < e.children.length; i++) {
+        for (let j = 0; j < tab; j++) {
+          str += "&nbsp;&nbsp;&nbsp;&nbsp;";
+          strLog += "  ";
+        }
+        str += "&lt;" + e.children[i].localName + "&gt;<br>";
+        strLog += "<" + e.children[i].localName + ">\n";
+
+        tab++;
+        getEl(e.children[i]);
+        tab--;
+
+        for (let j = 0; j < tab; j++) {
+          str += "&nbsp;&nbsp;&nbsp;&nbsp;";
+          strLog += "  ";
+        }
+        str += "&lt;/" + e.children[i].localName + "&gt;<br>"
+        strLog += "</" + e.children[i].localName + ">\n"
+      }
+    }
+  </script>
+</body>
+</html>

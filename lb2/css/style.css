@@ -1,0 +1,25 @@
+body {
+    background: #efefef;
+}
+
+h3 {
+    color: #a44;
+}
+
+.subject {
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8px;
+    border: dashed #555;
+    width: 70%;
+    text-align: center;
+}
+
+.comment {
+    color: #44aa44;
+}
+
+.definition {
+    font-size: 1.4em;
+}
