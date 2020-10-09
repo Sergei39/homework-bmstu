@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <title>Шишкин Сергей Андреевич ИУ6-32Б Вариант 18</title>
+    <meta charset="utf-8">
+    <style>
+      #task{
+        margin-bottom: 2em;
+        width: 40em;
+      }
+      #specific{
+        margin-bottom: 1em;
+      }
+    </style>
+</head>
+<body>
+  <form class="" action="index.html" method="post">
+
+  </form>
+  <div id="task">
+    Дан массив чисел arr_b. Найти частное от деления количества элементов,
+    индексы которых кратны 3, на последний положительный элемент массива
+  </div>
+  <div id="specific">
+    Введите числа через пробел:
+  </div>
+  <table id="submit">
+    <tr>
+        <th>Массив:</th>
+        <th><form><input type="text" name="arr_b" id="arr_b"/></form></th>
+    </tr>
+    <tr>
+        <th><button id="post" onclick='getProd()'>Отправить</button></th>
+        <th></th>
+    </tr>
+  </table>
+  <div id="result">
+  </div>
+  <script>
+    document.getElementById("arr_b").value = "-1 9 0 2"
+    getProd()
+    document.getElementById("arr_b").value = "-1 9 0 2"
+
+    function getProd() {
+      input = document.getElementById("arr_b")
+      str = input.value
+      input.value = ""
+      arr_b = str.trim().split(" ").map(Number)
+      for (let i = 0; i < arr_b.length; i++)
+        if (isNaN(arr_b[i])) {
+          alert("Необходимо вводить только числа")
+          return;
+        }
+
+      res = calc(arr_b)
+      document.getElementById("result").textContent = "Результат: " + res.toString()
+    }
+
+    function calc(arr_b) {
+      let num = 0;
+      let pos_num = 0;
+      for (let i = 0; i < arr_b.length; i++) {
+        if (i % 3 === 0)
+          num++;
+        if (arr_b[i] > 0)
+          pos_num = arr_b[i];
+      }
+      if (pos_num === 0) {
+        alert("Нет положительных чисел")
+        return 0
+      }
+
+      return (num / pos_num)
+    }
+  </script>
+</body>
+</html>

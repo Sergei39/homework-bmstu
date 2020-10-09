@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64efde11-a3d3-4ec9-873c-468445cd4774" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/part_1/client.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/part_1/logic.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/part_1/test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/part_2/client.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/part_2/logic.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/part_2/test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lav6/part_1/client.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lav6/part_1/logic.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lb2/html/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lb2/html/bootstrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lb3/LAB_3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../lb3/LAB_3.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lb3/LAB_3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../lb3/LAB_3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lb4/LAB_4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../lb4/LAB_4.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lb4/LAB_4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../lb4/LAB_4.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1iBX9rB6QBQXmN6aLD4qkrbq7X9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="profiler.ruby" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab5/part_1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Ruby.test (1)">
+    <configuration name="client (1)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="web" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lab5/part_2" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lab5/part_2/client.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client (2)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="web" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lav6/part_1" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lav6/part_1/client.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="web" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lab5/part_1" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lab5/part_1/client.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="web" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lab5/part_2" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lab5/part_2/test.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="web" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lab5/part_1" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lab5/part_1/test.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.test (1)" />
+        <item itemvalue="Ruby.test" />
+        <item itemvalue="Ruby.client (2)" />
+        <item itemvalue="Ruby.client (1)" />
+        <item itemvalue="Ruby.client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64efde11-a3d3-4ec9-873c-468445cd4774" name="Default Changelist" comment="" />
+      <created>1601381811962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601381811962</updated>
+      <workItem from="1601381813777" duration="5733000" />
+      <workItem from="1601838982888" duration="9968000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1874" height="355" key="GridCell.Tab.0.bottom" timestamp="1602082314433">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="355" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314433" />
+    <state width="1874" height="355" key="GridCell.Tab.0.center" timestamp="1602082314433">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="355" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314433" />
+    <state width="1874" height="355" key="GridCell.Tab.0.left" timestamp="1602082314432">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="355" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314432" />
+    <state width="1874" height="355" key="GridCell.Tab.0.right" timestamp="1602082314433">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="355" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314433" />
+    <state width="1874" height="355" key="GridCell.Tab.1.bottom" timestamp="1602082314435">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="355" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314435" />
+    <state width="1874" height="355" key="GridCell.Tab.1.center" timestamp="1602082314434">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="355" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314434" />
+    <state width="1874" height="355" key="GridCell.Tab.1.left" timestamp="1602082314434">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="355" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314434" />
+    <state width="1874" height="355" key="GridCell.Tab.1.right" timestamp="1602082314434">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="355" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314434" />
+    <state x="449" y="170" width="1022" height="737" key="SettingsEditor" timestamp="1601847377030">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="449" y="170" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1601847377030" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/web@test.rcov" NAME="test Coverage Results" MODIFIED="1601968760476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5/part_1" MODULE_NAME="web" />
+    <SUITE FILE_PATH="coverage/web@client.rcov" NAME="client Coverage Results" MODIFIED="1601382922768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5/part_1" MODULE_NAME="web" />
+    <SUITE FILE_PATH="coverage/web@client__2_.rcov" NAME="client (2) Coverage Results" MODIFIED="1601386201948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lav6/part_1" MODULE_NAME="web" />
+    <SUITE FILE_PATH="coverage/web@test__1_.rcov" NAME="test (1) Coverage Results" MODIFIED="1601970768884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5/part_2" MODULE_NAME="web" />
+    <SUITE FILE_PATH="coverage/web@client__1_.rcov" NAME="client (1) Coverage Results" MODIFIED="1601383661674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5/part_2" MODULE_NAME="web" />
+  </component>
+</project>
