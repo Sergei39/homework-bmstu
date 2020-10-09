@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <title>Магазин</title>
+    <meta charset="utf-8">
+    <style>
+      th, td {
+        text-align: center;
+      }
+      #info {
+        border: 1px solid black;
+        float: left;
+        width: auto;
+        margin-left: 30px;
+      }
+      table#catalog {
+        float: left;
+        width: 300px;
+      }
+      table#math {
+        margin-left: 50px;
+        float: left;
+      }
+      table#submit {
+        float: left;
+      }
+    </style>
+</head>
+<body>
+  <table id="submit">
+      <tr>
+          <th>Наименование:</th>
+          <th><input type="text" name="name" id="name"/></th>
+      </tr>
+      <tr>
+          <th>Стоимость:</th>
+          <th><input type="text" name="cena" id="cena"/></th>
+      </tr>
+      <tr>
+          <th><input type="submit" value="Добавить" id="setTb"/></th>
+          <th></th>
+      </tr>
+    </table>
+  <table id="catalog">
+      <tr>
+          <th>Товар:</th>
+          <th>Стоимость:</th>
+          <th>Добавить</th>
+      </tr>
+    </table>
+
+    <table id="info">
+      <tr>
+        <th colspan="3">Корзина</th>
+      </tr>
+      <tr>
+        <th>Товар:</th>
+        <th>Стоимость:</th>
+        <th>Количество</th>
+      </tr>
+    </table>
+
+    <table id="math">
+      <tr>
+          <th><input type="submit" value="Суммарная стоимость" id="sumCena"/></th>
+          <th id="resSum">0</th>
+      </tr>
+    </table>
+
+    <script>
+      document.getElementById("sumCena").onclick = sumCena;
+      document.getElementById("setTb").onclick = newRow;
+
+    function postProd(el) {
+      el = el.parentElement.parentElement;
+        if (checkNumOrAdd(el.firstChild.textContent) == 0) {
+          let info = document.getElementById("info");
+          let row = document.createElement("TR")
+          row.innerHTML = "<td>" + el.childNodes[0].textContent +
+            "</td><td>" + el.childNodes[1].textContent + "</td><th>" + 1 + "</th>"
+
+          info.appendChild(row);
+        }
+    }
+
+    function checkNumOrAdd(name) {
+      let tresh = document.getElementById("info");
+      for (let i = 1; i < tresh.childNodes.length; i++) {
+        if (tresh.childNodes[i].firstChild.textContent === name) {
+          tresh.childNodes[i].lastChild.textContent = (Number(tresh.childNodes[i].lastChild.textContent) + 1).toString();
+          return Number(tresh.childNodes[i].lastChild.textContent);
+        }
+      }
+      return 0;
+    }
+
+    function sumCena() {
+      let infoTb = document.getElementById("info");
+      let sum = 0;
+      for (let i = 1; i < infoTb.childNodes.length; i++) {
+        sum += Number(infoTb.childNodes[i].childNodes[1].textContent) * Number(infoTb.childNodes[i].lastChild.textContent);
+      }
+
+      document.getElementById("resSum").textContent = sum.toString();
+    }
+
+    function mouseOut(el) {
+      el.style.backgroundColor = "white";
+    }
+
+    function mouseOver(el) {
+      el.style.backgroundColor = "green";
+    }
+
+    function newRow() {
+      let strName = document.getElementById("name").value;
+      let strCena = document.getElementById("cena").value;
+      document.getElementById("name").value = "";
+      document.getElementById("cena").value = "";
+      if (strName === "" || strCena === "") {
+        alert("Нет наименования или стоимости");
+        return 0;
+      }
+      if (isNaN(Number(strCena))) {
+        alert("Стоимость должна быть равна числу");
+        return 0;
+      }
+
+      let info = document.getElementById("catalog");
+      let row = document.createElement("TR")
+      row.innerHTML = "<td>" + strName +
+        "</td><td onMouseOut='mouseOut(this)' onMouseOver='mouseOver(this)'>" +
+          strCena + "</td><td><button type='button' onclick='postProd(this)'>+</button></td>"
+      info.appendChild(row);
+    }
+  </script>
+</body>
+</html>
