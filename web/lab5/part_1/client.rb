@@ -5,9 +5,9 @@ require_relative 'logic'
 puts 'Hello'
 
 puts 'Input x'
-x = gets.to_f
+x_num = gets.to_f
 
 puts 'Input z'
-z = gets.to_f
+z_num = gets.to_f
 
-puts "Result: #{math_yr x, z}"
+puts "Result: #{math_yr x_num, z_num}"

@@ -11,23 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64efde11-a3d3-4ec9-873c-468445cd4774" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/part_1/client.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/part_1/logic.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/part_1/test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/part_2/client.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/part_2/logic.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/part_2/test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lav6/part_1/client.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lav6/part_1/logic.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lb2/html/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lb2/html/bootstrap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lb3/LAB_3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../lb3/LAB_3.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lb3/LAB_3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../lb3/LAB_3.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lb4/LAB_4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../lb4/LAB_4.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lb4/LAB_4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../lb4/LAB_4.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/part_1/client.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/part_1/client.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/part_1/logic.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/part_1/logic.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/part_1/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/part_1/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/part_2/logic.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/part_2/logic.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/part_2/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/part_2/test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +34,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,6 +41,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="profiler.ruby" />
   </component>
   <component name="RecentsManager">
@@ -172,6 +161,8 @@
       <updated>1601381811962</updated>
       <workItem from="1601381813777" duration="5733000" />
       <workItem from="1601838982888" duration="9968000" />
+      <workItem from="1603172614722" duration="1942000" />
+      <workItem from="1603174573054" duration="7151000" />
     </task>
     <servers />
   </component>
@@ -191,48 +182,48 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="355" key="GridCell.Tab.0.bottom" timestamp="1602082314433">
+    <state width="1874" height="21" key="GridCell.Tab.0.bottom" timestamp="1603181719259">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="355" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314433" />
-    <state width="1874" height="355" key="GridCell.Tab.0.center" timestamp="1602082314433">
+    <state width="1874" height="21" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1603181719259" />
+    <state width="1874" height="21" key="GridCell.Tab.0.center" timestamp="1603181719259">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="355" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314433" />
-    <state width="1874" height="355" key="GridCell.Tab.0.left" timestamp="1602082314432">
+    <state width="1874" height="21" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1603181719259" />
+    <state width="1874" height="21" key="GridCell.Tab.0.left" timestamp="1603181719259">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="355" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314432" />
-    <state width="1874" height="355" key="GridCell.Tab.0.right" timestamp="1602082314433">
+    <state width="1874" height="21" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1603181719259" />
+    <state width="1874" height="21" key="GridCell.Tab.0.right" timestamp="1603181719259">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="355" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314433" />
-    <state width="1874" height="355" key="GridCell.Tab.1.bottom" timestamp="1602082314435">
+    <state width="1874" height="21" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1603181719259" />
+    <state width="1874" height="355" key="GridCell.Tab.1.bottom" timestamp="1603178544588">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="355" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314435" />
-    <state width="1874" height="355" key="GridCell.Tab.1.center" timestamp="1602082314434">
+    <state width="1874" height="355" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1603178544588" />
+    <state width="1874" height="355" key="GridCell.Tab.1.center" timestamp="1603178544588">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="355" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314434" />
-    <state width="1874" height="355" key="GridCell.Tab.1.left" timestamp="1602082314434">
+    <state width="1874" height="355" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1603178544588" />
+    <state width="1874" height="355" key="GridCell.Tab.1.left" timestamp="1603178544588">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="355" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314434" />
-    <state width="1874" height="355" key="GridCell.Tab.1.right" timestamp="1602082314434">
+    <state width="1874" height="355" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1603178544588" />
+    <state width="1874" height="355" key="GridCell.Tab.1.right" timestamp="1603178544588">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="355" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602082314434" />
+    <state width="1874" height="355" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1603178544588" />
     <state x="449" y="170" width="1022" height="737" key="SettingsEditor" timestamp="1601847377030">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="449" y="170" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1601847377030" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/web@test.rcov" NAME="test Coverage Results" MODIFIED="1601968760476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5/part_1" MODULE_NAME="web" />
+    <SUITE FILE_PATH="coverage/web@test.rcov" NAME="test Coverage Results" MODIFIED="1603174575188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5/part_1" MODULE_NAME="web" />
     <SUITE FILE_PATH="coverage/web@client.rcov" NAME="client Coverage Results" MODIFIED="1601382922768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5/part_1" MODULE_NAME="web" />
     <SUITE FILE_PATH="coverage/web@client__2_.rcov" NAME="client (2) Coverage Results" MODIFIED="1601386201948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lav6/part_1" MODULE_NAME="web" />
-    <SUITE FILE_PATH="coverage/web@test__1_.rcov" NAME="test (1) Coverage Results" MODIFIED="1601970768884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5/part_2" MODULE_NAME="web" />
+    <SUITE FILE_PATH="coverage/web@test__1_.rcov" NAME="test (1) Coverage Results" MODIFIED="1603181719245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5/part_2" MODULE_NAME="web" />
     <SUITE FILE_PATH="coverage/web@client__1_.rcov" NAME="client (1) Coverage Results" MODIFIED="1601383661674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5/part_2" MODULE_NAME="web" />
   </component>
 </project>

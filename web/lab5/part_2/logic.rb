@@ -2,19 +2,8 @@
 
 def correct_str(str)
   str_arr = str.split
-  max = str_arr.max_by(&:size)
-  min = str_arr.min_by(&:size)
-  swap str, max, min
-end
-
-def swap(str, first, second)
-  res = str.clone
-  if res.index(first) > res.index(second)
-    res.sub! first, second
-    res.sub! second, first
-  else
-    res.sub! second, first
-    res.sub! first, second
-  end
-  res
+  minmax = str_arr.each_with_index.minmax_by { |word, _index| word.length }
+  str_arr[minmax[0][1]] = minmax[1][0]
+  str_arr[minmax[1][1]] = minmax[0][0]
+  str_arr.join ' '
 end

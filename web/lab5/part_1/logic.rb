@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-def math_yr(x, z)
-  (x**2 - 10) / Math.tan(6 * z - 6 * x)
+def math_yr(x_num, z_num)
+  (x_num**2 - 10) / Math.tan(6 * z_num - 6 * x_num)
 end

@@ -3,52 +3,48 @@
 require 'minitest/autorun'
 require_relative 'logic'
 
+# class with test
 class TestStr < Minitest::Test
+  CHARS = ('а'..'я').to_a
+  NUM_TESTS = 20
 
   def test_first
-    20.times do
-      strs = gen_str
-      assert_equal strs[1], correct_str(strs[0])
+    NUM_TESTS.times do
+      strings = gen_str
+      assert_equal strings[1], correct_str(strings[0])
     end
   end
 
-  def gen_word(n)
-    chars = ('а'..'я').to_a
-    (chars.sample rand(1..n)).join ''
+  def gen_word(len_word)
+    (CHARS.sample len_word).join ''
   end
 
   def gen_str
     max_size = rand(7..10)
-    min_size = rand(2..6)
+    min_size = rand(2..5)
     max_word = gen_word max_size
     min_word = gen_word min_size
-    len = rand(2..10)
-    num_min = rand(1..len)
-    num_max = rand(1..len)
-    num_max += 1 if num_max == num_min
+    len_str = rand(3..10)
+    max = false
+    min = false
 
-    str = ''
-    res = ''
-    len.times do |i|
-      if i != 0
-        str += ' '
-        res += ' '
-      end
-      if i == num_max
-        str += max_word
-        res += min_word
-      elsif i == num_min
-        str += min_word
-        res += max_word
+    arr_str = []
+    arr_res = []
+    len_str.times do |i|
+      if i == rand(i...len_str - 1) && !max
+        arr_str << [max_word]
+        arr_res << [min_word]
+        max = true
+      elsif i == rand(i...len_str) && !min
+        arr_str << [min_word]
+        arr_res << [max_word]
+        min = true
       else
-        word = gen_word rand(min_size + 1...max_size)
-        str += word
-        res += word
+        word = gen_word rand((min_size + 1)...max_size)
+        arr_str << word
+        arr_res << word
       end
     end
-    puts str
-    puts res
-    [str, res]
+    [arr_str.join(' '), arr_res.join(' ')]
   end
-
 end
