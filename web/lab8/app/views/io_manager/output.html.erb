@@ -1,0 +1,19 @@
+<h3>Страница для вывода результатов подсчета</h3>
+<p id="result">
+  <% if @result.is_a?(String) %>
+    <%= @result%>
+  <%else%>
+    <% if @result.empty? %>
+      <p>соответствующих пар нет</p>
+    <%else%>
+      <table>
+        <% @result.each do |elem| %>
+          <tr>
+            <td><%= elem - 2%></td>
+            <td><%= elem%></td>
+          </tr>
+        <% end %>
+      </table>
+    <% end %>
+<% end %>
+</p>
