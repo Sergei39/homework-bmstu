@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;
+charset=utf-8" />
+  <title>lab9 AJAX</title>
+  <script>
+      twins_url= location.protocol + "//" + location.host +
+          "/manager/view.json"
+      function send_query(){
+          var frm = document.forms.input_form;
+          var param_str = "?" + "number=" + frm.v1.value;
+
+          if (param_str == "") return false;
+          var my_JSON_object = {};
+          var http_request = new XMLHttpRequest();
+          http_request.open("GET", twins_url+param_str, true);
+          http_request.onreadystatechange = function () {
+              var done = 4, ok = 200;
+              if (http_request.readyState == done &&
+                  http_request.status == ok) {
+                  my_JSON_object =
+                      JSON.parse(http_request.responseText);
+                  show_result(my_JSON_object);
+              }
+          };
+          http_request.send(null);
+          return false;
+      }
+      function show_result(data){
+          let output = ""
+          if(data.type === "String") {
+              output = "</br>" + data.value
+          } else if (data.type === "Array") {
+              output = "Result is: </br>" + "<p> <table>"
+              for (let i = 0; i < data.value.length; i++) {
+                  let num1 = data.value[i] - 2
+                  let num2 = data.value[i]
+                  output += "<tr>" +
+                      "<td>" + num1 + "</td>" +
+                      "<td>" + num2 + "</td>" +
+                      "</tr>"
+              }
+              output += "</table> </p>"
+
+              if(data.value.length === 0)
+                  output = "</br>" + "no matching pairs"
+          }
+
+          let result = document.getElementById("result");
+          result.innerHTML = "<hr/>" + output;
+      }
+  </script>
+</head>
+<body>
+  <h3>Текст задания:</h3>
+  <p>Дано натуральное число n. Написать программу, определяющую, есть
+    ли среди чисел n, n + 1, n + 2, . . . 2n близнецы, то есть простые числа,
+    разность между которыми равна 2. Например, 11 и 13, 17 и 19. Вывести
+    на печать все обнаруженные пары, а если таких пар нет, то соответству-
+    ющее сообщение. Для определения близнецов и их наличия использовать
+    функции.</p>
+
+  <form name="input_form" method="get">
+    <label for="Value">Number to check:</label>
+    <input id="v1" name="v1" type="text" /> <br/>
+
+    <br/>
+    <input name="commit" type="submit"
+         value="Calc result" onclick="return send_query();" />
+  </form>
+  <div id="result"></div>
+</body>
+</html>
