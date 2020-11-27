@@ -4,8 +4,4 @@ Rails.application.routes.draw do
   root 'io_manager#input'
 
   get 'output' => 'io_manager#output'
-
-  # root 'euclid#index'
-  # get 'euclid/output'
-  # get 'euclid/index'
 end

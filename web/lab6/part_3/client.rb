@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'logic'
 
 puts 'Choose a function:'
@@ -7,7 +9,7 @@ code = gets.to_i
 
 puts 'Input step'
 steps = gets.to_i
-func = ->(x) { Math::E ** x / (x + 1) }
+func = ->(x) { Math::E**x / (x + 1) }
 if code == 1
   puts integral(steps, 1, 0, func)
 else

@@ -1,26 +1,24 @@
+# frozen_string_literal: true
+
 require 'prime'
 
+# main controller
 class IoManagerController < ApplicationController
-  def input
-
-  end
-
   def output
-    number = params[:number]
-    if (number.to_i == 0) and (number != "0")
-      @result = "Please, input valid number"
+    number = params[:number].to_i
+    if number.zero? && number != '0'
+      @result = 'Please, input valid number'
     else
-      @result = main_logic(number.to_i)
+      @result = main_logic(number)
     end
   end
 
-
   def main_logic(number)
-    prime = Prime.take_while { |p| p <= number * 2 }.select { |x| x >= number }
+    prime = Prime.take_while { |pr| pr <= number * 2 }.select { |val| val >= number }
     count = -5
-    prime.select do |x|
-      diff = x - count
-      count = x
+    prime.select do |val|
+      diff = val - count
+      count = val
       diff == 2
     end
   end

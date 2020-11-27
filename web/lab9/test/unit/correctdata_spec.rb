@@ -14,7 +14,8 @@ describe 'Correctdata' do
     @driver.quit
   end
 
-  it 'correct_data' do
+  it 'test1' do
+    @driver.get 'http://127.0.0.1:3000/'
     @driver.find_element(:id, 'v1').click
     @driver.find_element(:id, 'v1').send_keys '10'
     @driver.find_element(:name, 'commit').click
