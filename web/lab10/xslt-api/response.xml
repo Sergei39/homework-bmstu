@@ -1,0 +1,12 @@
+<objects type="array">
+  <script/>
+  <script/>
+  <object>
+    <elem-1 type="integer">11</elem-1>
+    <elem-2 type="integer">13</elem-2>
+  </object>
+  <object>
+    <elem-1 type="integer">17</elem-1>
+    <elem-2 type="integer">19</elem-2>
+  </object>
+</objects>
